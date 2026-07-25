@@ -1,0 +1,93 @@
+:root {
+  --primary: #7c4a2f;
+  --primary-dark: #5a321f;
+  --accent: #f0c48f;
+  --text: #2f241f;
+  --muted: #6f5d53;
+  --surface: #fcf8f3;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  color: var(--text);
+  background: linear-gradient(135deg, #fffdf9 0%, #f7efe8 100%);
+}
+
+.navbar {
+  background: var(--primary-dark) !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero {
+  padding: 5rem 0;
+  background: radial-gradient(circle at top left, rgba(240, 196, 143, 0.25), transparent 35%), var(--surface);
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+
+.badge {
+  background-color: var(--accent);
+  color: var(--primary-dark);
+  font-weight: 600;
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.feature-card {
+  padding: 1.3rem;
+  height: 100%;
+}
+
+.feature-card i {
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.info-box {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  background: var(--primary-dark);
+  color: #f8efe7;
+}
